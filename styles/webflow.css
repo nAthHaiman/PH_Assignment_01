@@ -13,6 +13,11 @@
   font-style: normal;
 }
 
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 
 .header {
     width: 1440px;
@@ -23,7 +28,8 @@
 
 nav {
     width: 1140px;
-    height: 130px;
+    height: 130Hug;
+    padding: 40px 0;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -40,7 +46,7 @@ nav ul li {
     color: #4E47FF;
 }
 .btn-header{
-    width: 135px;
+    width: 140px;
     height: 48px;
     font-size: 16px;
     font-weight: bold;
@@ -49,6 +55,10 @@ nav ul li {
     background-color: #4E47FF;
     border-radius: 12px;
     padding: 12px 36px; 
+}
+.btn-header:hover{
+    background-color: aqua;
+    color: black;
 }
 .banner{
     width: 905px;
@@ -72,3 +82,93 @@ nav ul li {
     font-size: 16px;
     border-radius: 12px;
 }
+.btn-banner:hover{
+    background-color: aqua;
+    color: black;
+}
+main{
+    background-color:#F5F8FF;
+    
+    margin: 0 auto;
+    padding-top: 116px ;
+    padding-bottom: 116px;
+} 
+.action{
+    width: 1140px;
+    height: 328Hug;
+    display: flex;
+    margin: 0 auto;
+    gap: 320px;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.action-left{
+    width: 517px;
+    height: 205Hug;
+}
+.action-title{
+    font-weight: bold;
+    font-size: 42px;
+    margin-bottom: 23px;
+}
+.action-des{
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+.btn-action{
+    width: 230px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: white;
+    border: 0;
+    border-radius: 12px;
+}
+.btn-action:hover{
+    background-color: aqua;
+    color: black;
+}
+.action-image{
+    width: 403px;
+    height: 328px;
+    border-radius: 40px;
+
+}
+.users{
+    margin: 116px auto ;
+    width: 1140px;
+    height: 308Hug;
+    background-color: #C8CCF6;
+    text-align: center;
+    border-radius: 30px;
+}
+.users-profile{
+    padding: 50px 142px;
+}
+.users-container{
+    display: flex;
+    gap: 58px;
+    justify-content: space-between;
+}
+.users-head{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.users-box{
+    width: 180px;
+    height: 121Hug;
+}
+.users-big{
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+}
+.users-small{
+    font-size: 20px;
+}
+
+
