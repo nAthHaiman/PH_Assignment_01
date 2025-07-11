@@ -306,6 +306,7 @@ main{
     padding-left: 32px;
     margin-bottom: 20px;
     font-size: 18px;
+    resize: none;
 }
 .btn-form{
     display: block;
