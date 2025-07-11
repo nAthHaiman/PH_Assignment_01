@@ -21,7 +21,7 @@ body{
 
 .header {
     width: 1440px;
-    height: 700px;
+    height: 680px;
     background-image: url(../Assets/Hero-bg.png);
     margin: 0 auto;
 }
@@ -91,7 +91,7 @@ main{
     
     margin: 0 auto;
     padding-top: 116px ;
-    padding-bottom: 116px;
+    padding-bottom: 15px;
 } 
 .action{
     width: 1140px;
@@ -194,6 +194,8 @@ main{
     height: 243Hug;
     background-color: white;
     padding: 24px;
+    border-radius: 20px;
+
 }
 .review-person-title{
     margin-top: 24px;
@@ -212,4 +214,110 @@ main{
 }
 .reviewr-picture{
      border-radius: 50%;
+}
+
+/* extra section */
+.extra-section{
+    width: 1140px;
+    height: 697px;
+    margin: 137px auto 0;
+    background-color:white;
+}
+.extra-head{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.extra{
+    text-align: center;
+    padding: 70px 0;
+
+}
+.extra-para{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 0.75;
+    margin-bottom: 20px;
+}
+.extra-photo{
+    display: block;
+    width: 840px;
+    height: 365px;
+    margin: 20px auto 0;
+    border-radius: 40px;
+    
+    
+}
+
+
+/* Form-section */
+
+.form-section{
+    width: 1140px;
+    height: 632Hug;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+.form-container{
+    display: flex;
+    gap: 115px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.connect-form{
+    padding-top: 71px;
+    padding-bottom: 71px;
+}
+.form-head{
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    width: 528px;
+    height: 232Hug;
+}
+.form-label{
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+.form-field{
+    width: 450px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    padding-left: 32px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+.form-text-field{
+    width: 450px;
+    height: 115px;
+    border: 0;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-left: 32px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.btn-form{
+    display: block;
+    width: 480px;
+    height: 50px;
+    background-color: #4E47FF;
+    color: white;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-form:hover{
+    background-color: aqua;
+    color: black;
 }
